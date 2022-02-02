@@ -1,0 +1,22 @@
+.header__lang-link_en {
+  margin: 0;
+  padding-top: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media all and (min-width: 320px) and (max-width: 424px) {
+  .header__lang-link_en {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
