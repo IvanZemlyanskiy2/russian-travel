@@ -5,10 +5,13 @@
   margin-top: 92px;
 }
 
+
+
+
+
 @media all and (min-width: 1024px) and (max-width: 1180px) {
   .intro {
     margin-left: 48px;
-    margin-top: 92px;
     max-width: calc(100% - 286px);
   }
 }

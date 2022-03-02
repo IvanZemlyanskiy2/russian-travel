@@ -1,0 +1,23 @@
+.header__link-en {
+  margin: 0;
+  padding-top: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+.header__link-en:active {
+  text-decoration: underline;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .header__link-en {
+    padding-top: 14px;
+    font-size: 22px;
+    line-height: 20px;
+  }
+}

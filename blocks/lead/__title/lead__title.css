@@ -1,5 +1,4 @@
 .lead__title {
-  display: flex;
   max-width: calc(100% - 264px);
   margin: 0 auto;
   font-style: normal;
