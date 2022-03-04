@@ -14,7 +14,7 @@
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
       <div class="header__link">
-        <a class="header__link-ru" href="#">Ru</a>
+        <a class="header__link_ru" href="#">Ru</a>
         <a class="header__link-en" href="#">En</a>
       </div>
     </header>
@@ -55,8 +55,8 @@
         <li><img class="photo__item" src="./images/photo-grid-baikal-2.jpg" alt="Снова Байкал"></li>
         <li><img class="photo__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки"></li>
       </ul>
-      <section class="places">
-        <div class="place">
+      <ul class="places">
+        <li class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url">URL</p>
@@ -77,8 +77,8 @@
               природы
               и запах стального, прохладного моря.</p>
           </div>
-        </div>
-        <div class="place">
+        </li>
+        <li class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url">URL</p>
@@ -99,7 +99,7 @@
               вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
               в Мурманск.</p>
           </div>
-        </div>
+        </li>
         <div class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
@@ -120,7 +120,7 @@
               равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
         </div>
-        <div class="place">
+        <li class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url">URL</p>
@@ -138,8 +138,8 @@
               к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
-        <div class="place">
+        </li>
+        <li class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url">URL</p>
@@ -155,22 +155,29 @@
               В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
-      </section>
+        </li>
+      </ul>
       <section class="cover">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
       </section>
-      <footer class="footer">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      <footerт class="footer">
+
+        <nav class="menu">
+          <ul class="menu__link">
+            <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+            <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+            <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+            <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+            <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+          </ul>
+        </nav>
         <p class="footer__copyright">&copy; 2022. Иван Землянский</p>
-      </footer>
+
+        </footer>
     </main>
   </div>
 </body>
+
 </html>
